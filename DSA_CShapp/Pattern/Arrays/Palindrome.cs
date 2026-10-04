@@ -2,7 +2,7 @@ public class Palindrome
 {
     public static void run()
     {
-        string input = "madaam";
+        string input = "madam";
 
         char[] inputString = input.ToArray();
         System.Console.WriteLine(string.Join(", ", inputString));
@@ -20,11 +20,13 @@ public class Palindrome
             left++;
             right--;
 
+            if (left >= right)
+            {
+                System.Console.WriteLine("Valid");
 
-
+            }
 
         }
-        System.Console.WriteLine("Valid");
 
     }
 
