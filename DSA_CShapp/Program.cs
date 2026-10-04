@@ -2,8 +2,8 @@
 {
     public static void Main(string[] args)
     {
-        ReverseArray.run();
-
+        // ReverseArray.run();
+        Palindrome.run();
 
     }
 
