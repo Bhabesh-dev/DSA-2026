@@ -1,19 +1,13 @@
 // Problem: Reverse an array in place.
-
 // Input: [1, 2, 3, 4, 5]
-
 // Output: [5, 4, 3, 2, 1]
 public class ReverseArray
 {
     public static void run()
     {
-
         System.Console.WriteLine("Reverse an given array");
-
-
         int[] input = { 1, 2, 3, 4, 5, 6 };
         PMReverseArray(input);
-
     }
 
     private static void PMReverseArray(int[] input)
