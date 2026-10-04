@@ -1,0 +1,16 @@
+Python/venv/Lib/site-packages/pip/_internal/operations/build/build_tracker.py
+DSA_CShapp/obj/Debug/net10.0/DSA_CShapp.AssemblyInfo.cs
+
+# Compiled assemblies and NuGet package artifacts
+*.dll
+*.nupkg
+*.snupkg
+[Pp]ackages/
+
+# Python virtual environments
+venv/
+.venv/
+
+# .NET build output
+obj/
+bin/
